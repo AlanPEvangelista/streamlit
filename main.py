@@ -8,6 +8,7 @@ with st.form(key="include_cliente"):
     input_button_submit = st.form_submit_button("Enviar")
 
 if input_button_submit:
+    st.title("Esses são seus dados")
     st.write(f'Nome: {input_name}')
     st.write(f'Idade: {input_age}')
     st.write(f'Profissão: {input_occupation}')
